@@ -4,19 +4,16 @@
 
 19.07.2021 - 20.07.2021 было проведено функциональное тестирование приложения Credit Card Number Validator.
 
-На тестирование затрачено: 5 часов
+На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* [Карта не валидна при вводе номера меньше 16-значного](https://github.com/Ilgatilov/CreditCard/issues/1#issue-947957521)
-* [Карта не валидна при вводе номера больше 16-значного](https://github.com/Ilgatilov/CreditCard/issues/2#issue-948821876)
+* [Карта не валидна, с номером, не равным 16-значному.](https://github.com/Ilgatilov/CreditCard/issues/2#issue-948821876)
 
 ## Описание процесса тестирования
 
-В качестве тестовых данных использовались данные [freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html):
-* Diners Club - карт-бланш № карты 30596895062744 - Result is OK;
-* American Express (AMEX) № карты 374274826903592 - Result is OK;
-* ВИЗА № карты 4916357950406830552 - Result is OK.
+В качестве тестовых данных использовались данные [freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html).
 
 Тестирование производилось в следующем окружении:
-* Windows 10
-* Java 11.0.5
+* Windows 10, x64
+* OpenJDK version 11.0.11
+* IntelliJ IDEA Community Edition 2021.1.2 x64
